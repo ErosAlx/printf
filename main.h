@@ -30,5 +30,9 @@ int printf_int(va_list args);
 int printf_dec(va_list args);
 int _printf(const char *format, ...);
 int printf_bin(va_list args);
+int printf_unsigned(va_list args);
+int printf_oct(va_list args);
+int printf_hex(va_list args);
+int printf_HEX(va_list args);
 
 #endif /* MAIN_H */

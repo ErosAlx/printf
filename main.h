@@ -29,5 +29,6 @@ int _putchar(char c);
 int printf_int(va_list args);
 int printf_dec(va_list args);
 int _printf(const char *format, ...);
+int printf_bin(va_list args);
 
 #endif /* MAIN_H */

@@ -2,16 +2,16 @@
 
 /**
  * printf_string - print a string.
- * @val: argumen t.
+ * @args: argument.
  * Return: the length of the string.
  */
 
-int printf_string(va_list val)
+int printf_string(va_list args)
 {
 	char *s;
 	int i, len;
 
-	s = va_arg(val, char *);
+	s = va_arg(args, char *);
 	if (s == NULL)
 	{
 		s = "(null)";

@@ -1,1 +1,1 @@
-printf project - group project, collaborators: Salma Melbous, Mourad Rachid
+printf project - group project, colalaborators: Salma Melbous, Mourad Rachid
